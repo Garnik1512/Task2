@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header-section{
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    width: 100%;
+
+    background-color: black;
+    border: 2px solid black;
+
+}
+.nav-position {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 3px solid red;
+}
+ul {
+    display: flex;
+    
+}
+li a {
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+ul li:hover {
+   background-color: red;
+}
+.main1 {
+    background-attachment: fixed;
+    background-image: url(./images/banner2.jpg);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main1 h1{
+    font-size: 100px;
+    color: white;
+}
+.main1 h2{
+    font-size: 70px;
+    color: white;
+}
+.main1 button {
+    color: red;
+    border: 2px solid red;
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.main2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main2 .block {
+    text-align: center;
+    width: 250px;
+}
+.block h3 {
+    font-size: 35px;
+}
+.block p {
+    font-size: 20px;
+}
+.main3 {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main3 img {
+    height: 700px;
+    width: 800px;
+}
+.red-fon {
+    background-color: red;
+    height: 600px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.red-fon img {
+    height: 50px;
+    width: 50px;
+}
+.red-fon h3 {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+  
+}
+.red-fon p {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.red-fon button {
+    padding: 15px;
+    margin-top: 30px;
+    color: red;
+    font-size: 20px;
+}
+.main-head {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main4 h1 {
+    font-size: 100px;
+}
+.main4 p {
+    font-size: 20px;
+}
+.main-full {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.main-block {
+    margin-top: 60px;
+    text-align: center;
+    width: 400px;
+}
+.main-heading {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main5 h1 {
+    font-size: 100px;
+}
+.main5 p {
+    font-size: 20px;
+}
+.albums {
+    margin-top: 50px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main-albums img {
+    width: 600px;
+    margin: 15px;
+}
+.main6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: red;
+}
+.main6 input {
+    height: 55px;
+    width: 600px;
+}
+.main6 button {
+    height: 55px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.main6 h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+.footer-block h3 {
+    color: white;
+    font-size: 40px;
+}
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-us a {
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-us img {
+    margin-right: 15px;
+}
+.contact-icon {
+    padding: 10px;
+}
+.contact-icon img {
+    padding: 10px;
+}
+
+.footer2 .input-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-block input {
+    padding: 15px;
+    margin: 10px;
+    width: 400px;
+}
+.input-block button {
+    height: 50px;
+    width: 140px;
+    color: red;
+    font-size: 20px;
+}
+.footer-imging img {
+   height: 150px;
+   width: 150px; 
+   padding: 10px;
+}
+.fot-img {
+    display: flex; 
+}
+h4 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(94, 91, 91);
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./login.css" />
+   
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-position">
+
+            <div class="nav-img">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="nav1">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">ALBOMS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+              
+                    <div id="logs"></div>
+                </ul>
+            </div>
+    </nav>
+
+    <h1>
+        If you have not yet registered, please click <a href="./reg.html">here</a>
+    </h1>
+    <div class="loginform">
+        <form action="/login" method="POST">
+            <div class="logform">
+                <label>Email</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="logform">
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-block">
+            <div class="footer1">
+                <h3>Contact Us</h3>
+                <div class="contact-us">
+                    <a href="#"> <img src="./icon/1.png" alt=""> Abovyan, Armenia</a>
+                    <a href="#"><img src="./icon/2.png" alt=""> Phone : (+374) 98 449 774</a>
+                    <a href="#"><img src="./icon/3.png" alt=""> EMail : garnikmkrtchyan@bk.ru</a>
+                </div>
+                <div class="contact-icon">
+                    <a href="#"></a> <img src="./icon/fb.png">
+                    <a href="#"></a> <img src="./icon/instagram.png">
+                    <a href="#"></a> <img src="./icon/lin(2).png">
+                    <a href="#"></a> <img src="./icon/tw.png">
+                </div>
+            </div>
+            <div class="footer2">
+                <h3>Get In Touch</h3>
+                <div class="input-block">
+                    <form action="/feedback" method="POST">
+                        <div class="divform">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="divform">
+                            <input type="text" placeholder="Phone" required>
+                        </div>
+                        <div class="divform">
+                            <input type="text" placeholder="Email" required>
+                        </div>
+                        <div class="divform">
+                            <input type="text" placeholder="Massage" required>
+                        </div>
+                        <button type="submit">Send</button>
+                </div>
+                </form>
+            </div>
+
+            <div class="footer3">
+                <h3>New Music</h3>
+                <div class="fot-img">
+                    <div class="fot-img1">
+                        <div class="footer-imging"><img src="./images/1.jpg" alt=""></div>
+                        <div class="footer-imging"><img src="./images/2.jpg" alt=""></div>
+                    </div>
+                    <div class="fot-img2">
+                        <div class="footer-imging"><img src="./images/music1.jpg" alt=""></div>
+                        <div class="footer-imging"><img src="./images/music2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="final"></div>
+        <h4>© 2019 All Rights Reserved. Free html Templates</h4>
+        </div>
+    </footer>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>
